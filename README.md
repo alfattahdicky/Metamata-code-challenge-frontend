@@ -1,5 +1,17 @@
 # Metamata-code-challenge-frontend
 
+## Instalasi
+
+1. Clone Repository
+```sh
+  git clone https://github.com/alfattahdicky/Metamata-code-challenge-frontend
+ ```
+2. Open folder 
+```sh
+  cd Metamata-code-challenge-frontend
+```
+3. Jalankan index.html 
+
 Membuat Website resep makanan;
 
 ## Spesifikasi

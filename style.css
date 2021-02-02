@@ -1,0 +1,72 @@
+body {
+  font-family: "Raleway", Sans-Serif;
+}
+
+.navbar {
+  background-color: #3a3c42;
+}
+
+.navbar .title, .result .title {
+ color: #9ccd62;
+}
+
+.wrap-banner {
+  background: url("./assets/banner.png") center;
+  background-size: cover;
+  height: 30vh;
+  box-shadow: inset 1000px 1000px 20px rgb(0,0,0,0.3);
+}
+
+.input .input-text {
+  border-color: #9ccd62;
+}
+
+.input .input-text:focus {
+  box-shadow: none;
+}
+
+.input .btn-search {
+  border: none;
+  outline: none;
+  background-color:#9ccd62;
+  border-radius: 40px;
+  padding: 0.4rem 2.5rem;
+}
+
+ .result .card {
+   border-radius: 1rem;
+   background:#3a3c42;
+ }
+ 
+ .result .card h5 {
+   color: #9ccd62;
+ }
+ 
+ .result .card .btn-favourite {
+   background-color:#9ccd62;
+   color: #000;
+   padding: 0.3rem 1.2rem;
+border-radius: 40px;
+font-weight: 700;
+border: none;
+outline: none;
+ }
+ 
+ .result .card .btn-favourite:hover {
+   border: 2px solid #9ccd62;
+   background: transparent;
+   color: #fff;
+ }
+ 
+footer {
+  background: #dfdeca;
+}
+ 
+ 
+@media (min-width: 768px) {
+  .wrap-banner {
+    width: 100%;
+    height: 350px;
+    border-radius: 0 0 10px 10px;
+  }
+}
